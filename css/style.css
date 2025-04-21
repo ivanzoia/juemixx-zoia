@@ -1,0 +1,158 @@
+*{  padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+.bgpagina{
+    background-color: #f5deb3;
+}
+.descripciones{
+    display: flex;
+    background-color: #000000;
+    width: 100%;
+    padding-top: 10px;    
+}
+
+h2{
+    color: #180669;
+}
+.sobrenosotros{ 
+    background-color:#f2059f;
+    background-position:center;
+    margin:10px;
+    padding-bottom: 5px;
+} 
+.texto {
+    color: #021425;
+}
+.vision {
+    background-color: #f2e205;
+    background-position: center;
+    margin: 10px;
+}
+.mision{
+    background-color: #05c7f2;
+    background-position: center;
+    margin: 10px;
+}
+.galeria_tecnicas{
+    width: 500px;
+    background-color: #2b3eee;
+}
+.galeria_tecnicas img{
+    width: 80%;
+}
+.galeria_tecnicas button{
+    color: #ffffff;
+    background-color: #800080;
+}
+.servicios{
+    background-color: #f2059f;
+    background-position: center;
+}
+.producto{
+    background-image: url(../assets/fondo\ productos.png);
+    background-size: auto;
+}
+.remera img{
+    width: 25%;
+    border: 2px solid #000000;
+    border-radius: 5px;
+}
+.producto p {
+    font-size: 3em;
+    font-style: inherit;
+    text-align: center;
+}
+.pf{
+    display: flex;
+    flex-direction: column;
+    background-image: url(../assets/fondo\ productos.png);
+    background-size: cover;
+      
+}
+.encabezado_pf{
+    font-size: 2em;
+    font-style: inherit;
+    text-align: center;
+    margin: 1px;
+    margin-bottom: 3px;
+}
+.preguntas h3{
+    margin: 2px 2px;
+    padding: 2px;
+}
+.bg-img{
+    background-image: url(../assets/fondo\ productos.png);
+    background-size: 100%;
+}
+.encabezado_contacto{
+    font-size: 2em;
+    font-style: inherit;
+    text-align: center;
+    margin: 1px;
+    margin-bottom: 3px;
+}
+.maps{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.accordion-button{
+background-color: #d18d8d;
+}
+.descripciones{
+    display: flex;
+}
+.slide{
+    margin-top: 20px;
+}
+.slide img {
+   height: 70vh;
+}
+.bg-zoia{
+    background-color: #05c7f2;
+}
+.bg-zm{
+    background-color: #ce2d93;
+}
+.bg-za{
+    background-color: #ffff00;
+}
+.foo{
+    display: flex;
+    background-color: #2f4f4f;
+    justify-content: space-evenly;
+}
+.pie1 a img{
+    width: 130px;
+    height: 75px;
+    margin: 15px;
+}
+.pieart{
+    width: 70%;
+    margin: 5px;
+}
+.pieul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+    
+}
+.pieul li a{
+    text-decoration: none;
+    color: #dda0dd;
+}
+.bg-zv{
+    background-color: #d260d6;
+}
+@media (max-width: 768px){
+    .foo{
+        flex-direction: column;
+    }
+        .pieul{
+            flex-direction: column;
+        }
+
+    }
