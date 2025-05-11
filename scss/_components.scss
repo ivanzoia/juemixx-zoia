@@ -1,0 +1,43 @@
+.foo{
+    display: flex;
+    background-color: #2f4f4f;
+    justify-content: space-evenly;
+    .pie1{
+       img{
+         width: 130px;
+         height: 75px;
+         margin: 15px;  
+        }
+    }
+    .pieart{
+      width: 70%;
+      margin: 5px;
+        ul{
+          list-style-type: none;
+          display: flex;
+          justify-content: space-between;
+          height: 100%;
+          align-items: center;
+          
+          li{
+            a{
+            text-decoration: none;
+            color:$foot-color}
+          }
+        }
+    }
+         
+}
+
+.bg-zv{
+    background-color: #d260d6;
+}
+@media (max-width: 768px){
+    .foo{
+        flex-direction: column;
+    }
+        .pieul{
+            flex-direction: column;
+        }
+
+    }

@@ -1,0 +1,24 @@
+{
+  "name": "desarrollo-web-coder",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass scss/style.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivanzoia/juemixx-zoia.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ivanzoia/juemixx-zoia/issues"
+  },
+  "homepage": "https://github.com/ivanzoia/juemixx-zoia#readme",
+  "description": "",
+  "devDependencies": {
+    "sass": "^1.88.0"
+  }
+}
