@@ -68,6 +68,23 @@
   background-color: #d18d8d;
 }
 
+.contactoz {
+  display: flex;
+  flex-direction: column;
+  font-size: 2em;
+  font-style: inherit;
+  text-align: center;
+  margin: 15px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+.contactoz h2 {
+  color: #000000;
+  background-color: #ffff00;
+  padding: 4px;
+  border-radius: 5px;
+}
+
 .foo {
   display: flex;
   background-color: #2f4f4f;
