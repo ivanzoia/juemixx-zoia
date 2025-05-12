@@ -1,0 +1,50 @@
+.animacion{
+    @include flex-center;
+    background-color: #000000;
+    margin-top: 10px;
+   
+    p{
+        width: 70px;
+        height: 70px;
+        margin: 10px;
+        padding: 13px;
+        text-align: center;
+        border-radius: 5px;
+        font-size: 30px;
+        font-weight: bold;
+       
+    }
+    .ju{
+        background-color: $primary-color;
+        &:hover {
+         animation: rebote-ju 2s ease-out;
+         }
+    }
+    .em{
+        background-color: $second-color;
+        &:hover {
+         animation: rebote-em 2s ease;
+         }
+    }
+    .ix{
+        background-color: $third-color;
+         &:hover {
+         animation: rebote-ix 3s ease-out;
+         }
+    }
+}
+@keyframes rebote-ju{
+    0% {transform: translateX(0) ;}
+    50% {transform: translateX(-100px) rotate(360deg);}
+    100% {transform: translateY(0);}
+}
+@keyframes rebote-em{
+    0% {transform: translateY(0);}
+    50% {transform: translateY(100px) rotate(-360deg); border-radius: 50%;}
+    100% {transform: translateY(0);}
+}
+@keyframes rebote-ix{
+    0% {transform: translateY(0);}
+    50% {transform: translateY(-100px) rotate(360deg);}
+    100% {transform: translateY(0);}
+}

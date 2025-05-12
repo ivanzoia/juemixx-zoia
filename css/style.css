@@ -1,8 +1,16 @@
 .bgpagina {
-  background-color: #d8c093;
+  background-color: #f3ddb4;
   padding: 0;
   margin: 0;
   font-family: "Inter", sans-serif;
+}
+
+.slide {
+  margin-top: 20px;
+}
+
+.slide img {
+  height: 70vh;
 }
 
 .bg-zoia {
@@ -81,6 +89,7 @@
 .contactoz h2 {
   color: #000000;
   background-color: #ffff00;
+  margin-bottom: 30px;
   padding: 4px;
   border-radius: 5px;
 }
@@ -124,6 +133,76 @@
   }
   .descripciones {
     flex-direction: column;
+  }
+}
+.animacion {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #000000;
+  margin-top: 10px;
+}
+.animacion p {
+  width: 70px;
+  height: 70px;
+  margin: 10px;
+  padding: 13px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.animacion .ju {
+  background-color: #f2059f;
+}
+.animacion .ju:hover {
+  animation: rebote-ju 2s ease-out;
+}
+.animacion .em {
+  background-color: #ffff00;
+}
+.animacion .em:hover {
+  animation: rebote-em 2s ease;
+}
+.animacion .ix {
+  background-color: #05c7f2;
+}
+.animacion .ix:hover {
+  animation: rebote-ix 3s ease-out;
+}
+
+@keyframes rebote-ju {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-100px) rotate(360deg);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes rebote-em {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(100px) rotate(-360deg);
+    border-radius: 50%;
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes rebote-ix {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-100px) rotate(360deg);
+  }
+  100% {
+    transform: translateY(0);
   }
 }
 
